@@ -1,13 +1,13 @@
 {
   "workspace_id": "0ba75ced-dd5c-4f5a-b644-650f03c0ee55",
-  "source_hash": "9f6441155382126d2e28130fcfe94b3bbf2608b863f867ae4bf5869fa729b855",
+  "source_hash": "5c18b28fc9786dfb7b528d5439afe6c83fc1d14352391b486a50a8db1cdb9c33",
   "command": [
     "pnpm",
     "run",
     "build:weapp"
   ],
   "exit_code": 0,
-  "duration_ms": 29562,
+  "duration_ms": 30064,
   "output_root": "/workspace/project/frontend/dist-weapp",
   "output_file_count": 39,
   "status": "passed"

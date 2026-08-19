@@ -1,11 +1,11 @@
 {
   "workspace_id": "0ba75ced-dd5c-4f5a-b644-650f03c0ee55",
-  "source_hash": "9f6441155382126d2e28130fcfe94b3bbf2608b863f867ae4bf5869fa729b855",
+  "source_hash": "5c18b28fc9786dfb7b528d5439afe6c83fc1d14352391b486a50a8db1cdb9c33",
   "status": "PASS",
   "command": "pnpm run test:acceptance",
   "exit_code": 0,
-  "duration_seconds": 13.045,
-  "summary": "> wx-miniapp@1.0.0 test:acceptance /workspace/project/frontend\n> vitest run\n\n\n RUN  v1.6.1 /workspace/project/frontend\n\n ✓ tests/week-helpers.acceptance.test.ts  (6 tests) 6ms\n ✓ tests/starter-state.acceptance.test.ts  (1 test) 4ms\n ✓ tests/member.acceptance.test.ts  (3 tests) 5ms\n\n Test Files  3 passed (3)\n      Tests  10 passed (10)\n   Start at  15:59:14\n   Duration  10.78s (transform 3.80s, setup 0ms, collect 4.90s, tests 15ms, environment 1ms, prepare 5.82s)",
+  "duration_seconds": 12.689,
+  "summary": "> wx-miniapp@1.0.0 test:acceptance /workspace/project/frontend\n> vitest run\n\n\n RUN  v1.6.1 /workspace/project/frontend\n\n ✓ tests/week-helpers.acceptance.test.ts  (6 tests) 7ms\n ✓ tests/starter-state.acceptance.test.ts  (1 test) 3ms\n ✓ tests/member.acceptance.test.ts  (3 tests) 8ms\n\n Test Files  3 passed (3)\n      Tests  10 passed (10)\n   Start at  16:25:10\n   Duration  10.24s (transform 2.41s, setup 0ms, collect 3.42s, tests 18ms, environment 7ms, prepare 5.40s)",
   "business_source_tests": [
     "tests/member.acceptance.test.ts",
     "tests/starter-state.acceptance.test.ts",

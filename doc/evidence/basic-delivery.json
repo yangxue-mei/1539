@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "run_id": "878d33da-ffc2-4558-b3dd-ab1a8ac15e66",
+  "run_id": "a9827584-c0eb-401b-a568-3c35928cb2c3",
   "scope": "basic",
   "workspace_id": "0ba75ced-dd5c-4f5a-b644-650f03c0ee55",
-  "source_hash": "9f6441155382126d2e28130fcfe94b3bbf2608b863f867ae4bf5869fa729b855",
+  "source_hash": "5c18b28fc9786dfb7b528d5439afe6c83fc1d14352391b486a50a8db1cdb9c33",
   "deploy_commit": "unknown",
   "deploy_commit_source": "local_git_head_unverified",
   "deploy_commit_verified": false,
@@ -19,37 +19,37 @@
     {
       "name": "deps:reuse-or-wait",
       "status": "passed",
-      "duration_ms": 865,
+      "duration_ms": 902,
       "receipt_path": ".agent_artifacts/miniapp-dependencies.json"
     },
     {
       "name": "static",
       "status": "passed_with_warnings",
-      "duration_ms": 272,
+      "duration_ms": 296,
       "receipt_path": "project/doc/evidence/static.json"
     },
     {
       "name": "acceptance",
       "status": "passed",
-      "duration_ms": 13165,
+      "duration_ms": 12816,
       "receipt_path": "project/doc/evidence/acceptance-smoke.json"
     },
     {
       "name": "build:weapp",
       "status": "passed",
-      "duration_ms": 29726,
+      "duration_ms": 30225,
       "receipt_path": "project/doc/evidence/build-weapp.json"
     },
     {
       "name": "h5:start",
       "status": "passed",
-      "duration_ms": 5965,
+      "duration_ms": 5925,
       "receipt_path": "project/doc/evidence/h5-start.json"
     },
     {
       "name": "h5:390",
       "status": "passed",
-      "duration_ms": 7972,
+      "duration_ms": 7922,
       "receipt_path": "project/doc/evidence/h5-390/report.json"
     }
   ],
