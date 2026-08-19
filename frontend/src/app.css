@@ -1,0 +1,74 @@
+@import 'weapp-tailwindcss/index.css';
+@config "../tailwind.config.js";
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --radius-full: 9999px;
+}
+
+page,
+html,
+body {
+  --background: #f6f4f1;
+  --foreground: #1a1410;
+  --card: #ffffff;
+  --card-foreground: #1a1410;
+  --primary: #f97316;
+  --primary-foreground: #ffffff;
+  --muted: #efe9e2;
+  --muted-foreground: #6b5d50;
+  --border: #e3d9cc;
+  --destructive: #dc2626;
+  margin: 0;
+  min-height: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+/* H5 Preview: keep the document free of horizontal scrollbars and make the
+   necessary vertical scrollbar quiet. Unsupported properties are ignored by
+   the WeApp target; real mini-program ScrollView remains native. */
+html,
+body,
+.taro_page {
+  scrollbar-width: thin;
+  scrollbar-color: color-mix(in srgb, var(--muted-foreground) 38%, transparent)
+    transparent;
+}
+
+body::-webkit-scrollbar,
+.taro_page::-webkit-scrollbar {
+  width: 6px;
+  height: 0;
+}
+
+body::-webkit-scrollbar-track,
+.taro_page::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+body::-webkit-scrollbar-thumb,
+.taro_page::-webkit-scrollbar-thumb {
+  min-height: 48px;
+  border: 2px solid transparent;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--muted-foreground) 38%, transparent);
+  background-clip: padding-box;
+}
+
+body::-webkit-scrollbar-thumb:hover,
+.taro_page::-webkit-scrollbar-thumb:hover {
+  background: color-mix(in srgb, var(--muted-foreground) 56%, transparent);
+  background-clip: padding-box;
+}

@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "run_id": "878d33da-ffc2-4558-b3dd-ab1a8ac15e66",
+  "scope": "basic",
+  "workspace_id": "0ba75ced-dd5c-4f5a-b644-650f03c0ee55",
+  "source_hash": "9f6441155382126d2e28130fcfe94b3bbf2608b863f867ae4bf5869fa729b855",
+  "deploy_commit": "unknown",
+  "deploy_commit_source": "local_git_head_unverified",
+  "deploy_commit_verified": false,
+  "status": "passed_with_warnings",
+  "stopped_at": null,
+  "stages": [
+    {
+      "name": "manifest",
+      "status": "passed",
+      "duration_ms": 0,
+      "receipt_path": ".agent_artifacts/miniapp-bootstrap.json"
+    },
+    {
+      "name": "deps:reuse-or-wait",
+      "status": "passed",
+      "duration_ms": 865,
+      "receipt_path": ".agent_artifacts/miniapp-dependencies.json"
+    },
+    {
+      "name": "static",
+      "status": "passed_with_warnings",
+      "duration_ms": 272,
+      "receipt_path": "project/doc/evidence/static.json"
+    },
+    {
+      "name": "acceptance",
+      "status": "passed",
+      "duration_ms": 13165,
+      "receipt_path": "project/doc/evidence/acceptance-smoke.json"
+    },
+    {
+      "name": "build:weapp",
+      "status": "passed",
+      "duration_ms": 29726,
+      "receipt_path": "project/doc/evidence/build-weapp.json"
+    },
+    {
+      "name": "h5:start",
+      "status": "passed",
+      "duration_ms": 5965,
+      "receipt_path": "project/doc/evidence/h5-start.json"
+    },
+    {
+      "name": "h5:390",
+      "status": "passed",
+      "duration_ms": 7972,
+      "receipt_path": "project/doc/evidence/h5-390/report.json"
+    }
+  ],
+  "findings": [
+    {
+      "id": "WX_EMOJI_ICON_REVIEW",
+      "path": "src/pages/admin/index.tsx",
+      "line": 58,
+      "message": "Emoji UI glyph requires explicit playful-product justification; use @nutui/icons-react-taro for formal in-page navigation/actions.",
+      "severity": "warning"
+    },
+    {
+      "id": "WX_EMOJI_ICON_REVIEW",
+      "path": "src/pages/admin/index.tsx",
+      "line": 132,
+      "message": "Emoji UI glyph requires explicit playful-product justification; use @nutui/icons-react-taro for formal in-page navigation/actions.",
+      "severity": "warning"
+    },
+    {
+      "id": "WX_EMOJI_ICON_REVIEW",
+      "path": "src/pages/admin/index.tsx",
+      "line": 140,
+      "message": "Emoji UI glyph requires explicit playful-product justification; use @nutui/icons-react-taro for formal in-page navigation/actions.",
+      "severity": "warning"
+    },
+    {
+      "id": "WX_EMOJI_ICON_REVIEW",
+      "path": "src/pages/admin/index.tsx",
+      "line": 445,
+      "message": "Emoji UI glyph requires explicit playful-product justification; use @nutui/icons-react-taro for formal in-page navigation/actions.",
+      "severity": "warning"
+    },
+    {
+      "id": "WX_EMOJI_ICON_REVIEW",
+      "path": "src/pages/coach-detail/index.tsx",
+      "line": 91,
+      "message": "Emoji UI glyph requires explicit playful-product justification; use @nutui/icons-react-taro for formal in-page navigation/actions.",
+      "severity": "warning"
+    },
+    {
+      "id": "WX_EMOJI_ICON_REVIEW",
+      "path": "src/pages/coaches/index.tsx",
+      "line": 62,
+      "message": "Emoji UI glyph requires explicit playful-product justification; use @nutui/icons-react-taro for formal in-page navigation/actions.",
+      "severity": "warning"
+    },
+    {
+      "id": "WX_EMOJI_ICON_REVIEW",
+      "path": "src/pages/home/index.tsx",
+      "line": 80,
+      "message": "Emoji UI glyph requires explicit playful-product justification; use @nutui/icons-react-taro for formal in-page navigation/actions.",
+      "severity": "warning"
+    },
+    {
+      "id": "WX_EMOJI_ICON_REVIEW",
+      "path": "src/pages/home/index.tsx",
+      "line": 90,
+      "message": "Emoji UI glyph requires explicit playful-product justification; use @nutui/icons-react-taro for formal in-page navigation/actions.",
+      "severity": "warning"
+    }
+  ],
+  "artifacts": [
+    ".agent_artifacts/miniapp-bootstrap.json",
+    ".agent_artifacts/miniapp-dependencies.json",
+    "project/doc/evidence/static.json",
+    "project/doc/evidence/acceptance-smoke.json",
+    "project/doc/evidence/build-weapp.json",
+    "project/doc/evidence/h5-start.json",
+    "project/doc/evidence/h5-390/report.json"
+  ]
+}

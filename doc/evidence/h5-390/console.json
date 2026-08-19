@@ -1,0 +1,57 @@
+[
+  {
+    "type": "log",
+    "text": "[Inspector] Loaded",
+    "location": {
+      "url": "https://yugoo.cn/bubble-popup.min.js",
+      "lineNumber": 0,
+      "columnNumber": 8
+    },
+    "blocking": false,
+    "classification": "informational"
+  },
+  {
+    "type": "log",
+    "text": "[Inspector] Initializing...",
+    "location": {
+      "url": "https://yugoo.cn/bubble-popup.min.js",
+      "lineNumber": 0,
+      "columnNumber": 54
+    },
+    "blocking": false,
+    "classification": "informational"
+  },
+  {
+    "type": "debug",
+    "text": "[vite] connecting...",
+    "location": {
+      "url": "https://yugoo.cn/bubble-popup.min.js",
+      "lineNumber": 0,
+      "columnNumber": 43514
+    },
+    "blocking": false,
+    "classification": "informational"
+  },
+  {
+    "type": "debug",
+    "text": "[vite] connected.",
+    "location": {
+      "url": "https://yugoo.cn/bubble-popup.min.js",
+      "lineNumber": 0,
+      "columnNumber": 43514
+    },
+    "blocking": false,
+    "classification": "informational"
+  },
+  {
+    "type": "info",
+    "text": "%cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold",
+    "location": {
+      "url": "https://yugoo.cn/bubble-popup.min.js",
+      "lineNumber": 0,
+      "columnNumber": 43790
+    },
+    "blocking": false,
+    "classification": "informational"
+  }
+]

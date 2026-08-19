@@ -1,0 +1,13 @@
+{
+  "hasApp": true,
+  "hasContent": true,
+  "title": "首页",
+  "url": "http://localhost:5173/#/pages/home/index",
+  "httpStatus": 200,
+  "stability": {
+    "settled": true,
+    "timedOut": false,
+    "timeoutMs": 5000,
+    "idleMs": 500
+  }
+}

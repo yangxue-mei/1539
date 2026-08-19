@@ -1,0 +1,56 @@
+{
+  "status": "passed_with_warnings",
+  "errors": [],
+  "warnings": [
+    {
+      "id": "WX_EMOJI_ICON_REVIEW",
+      "path": "src/pages/admin/index.tsx",
+      "line": 58,
+      "message": "Emoji UI glyph requires explicit playful-product justification; use @nutui/icons-react-taro for formal in-page navigation/actions."
+    },
+    {
+      "id": "WX_EMOJI_ICON_REVIEW",
+      "path": "src/pages/admin/index.tsx",
+      "line": 132,
+      "message": "Emoji UI glyph requires explicit playful-product justification; use @nutui/icons-react-taro for formal in-page navigation/actions."
+    },
+    {
+      "id": "WX_EMOJI_ICON_REVIEW",
+      "path": "src/pages/admin/index.tsx",
+      "line": 140,
+      "message": "Emoji UI glyph requires explicit playful-product justification; use @nutui/icons-react-taro for formal in-page navigation/actions."
+    },
+    {
+      "id": "WX_EMOJI_ICON_REVIEW",
+      "path": "src/pages/admin/index.tsx",
+      "line": 445,
+      "message": "Emoji UI glyph requires explicit playful-product justification; use @nutui/icons-react-taro for formal in-page navigation/actions."
+    },
+    {
+      "id": "WX_EMOJI_ICON_REVIEW",
+      "path": "src/pages/coach-detail/index.tsx",
+      "line": 91,
+      "message": "Emoji UI glyph requires explicit playful-product justification; use @nutui/icons-react-taro for formal in-page navigation/actions."
+    },
+    {
+      "id": "WX_EMOJI_ICON_REVIEW",
+      "path": "src/pages/coaches/index.tsx",
+      "line": 62,
+      "message": "Emoji UI glyph requires explicit playful-product justification; use @nutui/icons-react-taro for formal in-page navigation/actions."
+    },
+    {
+      "id": "WX_EMOJI_ICON_REVIEW",
+      "path": "src/pages/home/index.tsx",
+      "line": 80,
+      "message": "Emoji UI glyph requires explicit playful-product justification; use @nutui/icons-react-taro for formal in-page navigation/actions."
+    },
+    {
+      "id": "WX_EMOJI_ICON_REVIEW",
+      "path": "src/pages/home/index.tsx",
+      "line": 90,
+      "message": "Emoji UI glyph requires explicit playful-product justification; use @nutui/icons-react-taro for formal in-page navigation/actions."
+    }
+  ],
+  "files_checked": 42,
+  "duration_ms": 195
+}

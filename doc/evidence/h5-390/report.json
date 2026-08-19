@@ -1,0 +1,99 @@
+{
+  "status": "passed",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "url": "http://localhost:5173/",
+  "token": "--background",
+  "findings": [],
+  "pageState": {
+    "hasApp": true,
+    "hasContent": true,
+    "title": "首页",
+    "url": "http://localhost:5173/#/pages/home/index",
+    "httpStatus": 200,
+    "stability": {
+      "settled": true,
+      "timedOut": false,
+      "timeoutMs": 5000,
+      "idleMs": 500
+    }
+  },
+  "computed": {
+    "token": "--background",
+    "tokenValue": "#f6f4f1",
+    "bodyBackground": "rgb(246, 244, 241)",
+    "htmlBackground": "rgb(246, 244, 241)"
+  },
+  "overflow": [],
+  "console": [
+    {
+      "type": "log",
+      "text": "[Inspector] Loaded",
+      "location": {
+        "url": "https://yugoo.cn/bubble-popup.min.js",
+        "lineNumber": 0,
+        "columnNumber": 8
+      },
+      "blocking": false,
+      "classification": "informational"
+    },
+    {
+      "type": "log",
+      "text": "[Inspector] Initializing...",
+      "location": {
+        "url": "https://yugoo.cn/bubble-popup.min.js",
+        "lineNumber": 0,
+        "columnNumber": 54
+      },
+      "blocking": false,
+      "classification": "informational"
+    },
+    {
+      "type": "debug",
+      "text": "[vite] connecting...",
+      "location": {
+        "url": "https://yugoo.cn/bubble-popup.min.js",
+        "lineNumber": 0,
+        "columnNumber": 43514
+      },
+      "blocking": false,
+      "classification": "informational"
+    },
+    {
+      "type": "debug",
+      "text": "[vite] connected.",
+      "location": {
+        "url": "https://yugoo.cn/bubble-popup.min.js",
+        "lineNumber": 0,
+        "columnNumber": 43514
+      },
+      "blocking": false,
+      "classification": "informational"
+    },
+    {
+      "type": "info",
+      "text": "%cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold",
+      "location": {
+        "url": "https://yugoo.cn/bubble-popup.min.js",
+        "lineNumber": 0,
+        "columnNumber": 43790
+      },
+      "blocking": false,
+      "classification": "informational"
+    }
+  ],
+  "resources": [],
+  "pageErrors": [],
+  "evidence": {
+    "directory": "/workspace/project/doc/evidence/h5-390",
+    "screenshot": "screenshot.png",
+    "console": "console.json",
+    "resources": "resources.json",
+    "computed": "computed.json",
+    "overflow": "overflow.json",
+    "pageState": "page-state.json",
+    "report": "report.json"
+  }
+}
