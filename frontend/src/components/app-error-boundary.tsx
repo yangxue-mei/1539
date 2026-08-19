@@ -35,16 +35,16 @@ export class AppErrorBoundary extends Component<PropsWithChildren, ErrorState> {
     }
 
     return (
-      <View className='flex min-h-screen flex-col items-center justify-center gap-4 bg-background px-6 text-foreground'>
-        <Text className='text-xl font-semibold'>页面暂时无法显示</Text>
-        <Text className='text-center text-sm text-muted-foreground'>
+      <View className='flex min-h-screen flex-col items-center justify-center gap-4 bg-background px-6 text-foreground' data-node-id="0cf46838-9ba7-11f1-b43e-bea971cc7bac">
+        <Text className='text-xl font-semibold' data-node-id="0cf46ad6-9ba7-11f1-b43e-bea971cc7bac">页面暂时无法显示</Text>
+        <Text className='text-center text-sm text-muted-foreground' data-node-id="0cf46cac-9ba7-11f1-b43e-bea971cc7bac">
           错误已保存在本地，可记录并复制错误信息后重试。
         </Text>
-        <View className='flex w-full max-w-sm flex-col gap-3'>
-          <Button className='w-full bg-primary text-primary-foreground' onClick={this.reset}>
+        <View className='flex w-full max-w-sm flex-col gap-3' data-node-id="0cf46bc6-9ba7-11f1-b43e-bea971cc7bac">
+          <Button className='w-full bg-primary text-primary-foreground' onClick={this.reset} data-node-id="0cf469dc-9ba7-11f1-b43e-bea971cc7bac">
             重新加载页面
           </Button>
-          <Button className='w-full' onClick={this.copyDetails}>
+          <Button className='w-full' onClick={this.copyDetails} data-node-id="0cf46d92-9ba7-11f1-b43e-bea971cc7bac">
             记录并复制错误
           </Button>
         </View>

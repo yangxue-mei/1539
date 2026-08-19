@@ -39,7 +39,7 @@ export function Button({
       )}
       hoverClass={hoverClass}
       {...props}
-    >
+     data-node-id="0cf6dfb4-9ba7-11f1-b43e-bea971cc7bac">
       {children}
     </TaroButton>
   )

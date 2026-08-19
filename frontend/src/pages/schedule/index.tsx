@@ -115,13 +115,13 @@ export default function Schedule() {
       title='本周课程表'
       description='一键预约 / 取消，开课前 2 小时不可取消'
       action={
-        <Button size='md' variant='secondary' onClick={() => Taro.navigateBack()} className='min-h-9 px-3 text-xs'>
+        <Button size='md' variant='secondary' onClick={() => Taro.navigateBack()} className='min-h-9 px-3 text-xs' data-node-id="0d23fa9e-9ba7-11f1-b43e-bea971cc7bac">
           返回
         </Button>
       }
-    >
-      <ScrollView scrollX className='whitespace-nowrap week-tabs' enhanced showScrollbar={false}>
-        <View className='flex flex-row gap-2 px-1 pb-1'>
+     data-node-id="0d2403b8-9ba7-11f1-b43e-bea971cc7bac">
+      <ScrollView scrollX className='whitespace-nowrap week-tabs' enhanced showScrollbar={false} data-node-id="0d23f9b8-9ba7-11f1-b43e-bea971cc7bac">
+        <View className='flex flex-row gap-2 px-1 pb-1' data-node-id="0d23f8be-9ba7-11f1-b43e-bea971cc7bac">
           {week.map((d, i) => {
             const active = i === activeDay
             const today = isToday(i)
@@ -133,10 +133,10 @@ export default function Schedule() {
                   active ? 'bg-primary text-primary-foreground' : 'bg-card text-foreground border border-border',
                 )}
                 onClick={() => setActiveDay(i)}
-              >
-                <Text className='text-xs'>{d.day}</Text>
-                <Text className='mt-0.5 text-sm font-semibold'>{d.label}</Text>
-                {today ? <Text className='text-[10px] opacity-80'>今天</Text> : null}
+               data-node-id="0d240840-9ba7-11f1-b43e-bea971cc7bac">
+                <Text className='text-xs' data-node-id="0d240494-9ba7-11f1-b43e-bea971cc7bac">{d.day}</Text>
+                <Text className='mt-0.5 text-sm font-semibold' data-node-id="0d240750-9ba7-11f1-b43e-bea971cc7bac">{d.label}</Text>
+                {today ? <Text className='text-[10px] opacity-80' data-node-id="0d240926-9ba7-11f1-b43e-bea971cc7bac">今天</Text> : null}
               </View>
             )
           })}
@@ -144,39 +144,39 @@ export default function Schedule() {
       </ScrollView>
 
       {loading ? (
-        <View className='flex flex-col items-center py-10'>
-          <Text className='text-sm text-muted-foreground'>加载中…</Text>
+        <View className='flex flex-col items-center py-10' data-node-id="0d23fb7a-9ba7-11f1-b43e-bea971cc7bac">
+          <Text className='text-sm text-muted-foreground' data-node-id="0d2402a0-9ba7-11f1-b43e-bea971cc7bac">加载中…</Text>
         </View>
       ) : dayCourses.length === 0 ? (
-        <EmptyState title='本周这天暂无团课' description='看看其他日期或联系管理员' />
+        <EmptyState title='本周这天暂无团课' description='看看其他日期或联系管理员'  data-node-id="0d23fc60-9ba7-11f1-b43e-bea971cc7bac"/>
       ) : (
-        <View className='flex flex-col gap-3'>
+        <View className='flex flex-col gap-3' data-node-id="0d23f364-9ba7-11f1-b43e-bea971cc7bac">
           {dayCourses.map((c) => {
             const r = remainingMap[c.id]
             const remaining = r?.remaining ?? c.max_capacity
             const mine = r?.my_booking_status ?? null
             const full = remaining <= 0 && mine !== 'booked'
             return (
-              <Card key={c.id} className='flex flex-col gap-3 p-4'>
-                <View className='flex flex-row items-start justify-between gap-3'>
-                  <View className='flex flex-1 flex-col gap-1'>
-                    <Text className='text-base font-semibold'>{c.name}</Text>
-                    <Text className='text-xs text-muted-foreground'>
+              <Card key={c.id} className='flex flex-col gap-3 p-4' data-node-id="0d240584-9ba7-11f1-b43e-bea971cc7bac">
+                <View className='flex flex-row items-start justify-between gap-3' data-node-id="0d23ff08-9ba7-11f1-b43e-bea971cc7bac">
+                  <View className='flex flex-1 flex-col gap-1' data-node-id="0d23fd50-9ba7-11f1-b43e-bea971cc7bac">
+                    <Text className='text-base font-semibold' data-node-id="0d23fe2c-9ba7-11f1-b43e-bea971cc7bac">{c.name}</Text>
+                    <Text className='text-xs text-muted-foreground' data-node-id="0d23ffe4-9ba7-11f1-b43e-bea971cc7bac">
                       {c.start_time}–{c.end_time} · {c.location}
                     </Text>
-                    <View className='mt-1 flex flex-row flex-wrap gap-2'>
-                      <Badge>{c.coach_name || '待定教练'}</Badge>
-                      <Badge className={DIFFICULTY_STYLE[c.difficulty] || ''}>{c.difficulty}</Badge>
+                    <View className='mt-1 flex flex-row flex-wrap gap-2' data-node-id="0d23f6de-9ba7-11f1-b43e-bea971cc7bac">
+                      <Badge data-node-id="0d240a0c-9ba7-11f1-b43e-bea971cc7bac">{c.coach_name || '待定教练'}</Badge>
+                      <Badge className={DIFFICULTY_STYLE[c.difficulty] || ''} data-node-id="0d240bd8-9ba7-11f1-b43e-bea971cc7bac">{c.difficulty}</Badge>
                     </View>
                   </View>
-                  <View className='flex flex-col items-end'>
-                    <Text className={cn('text-2xl font-bold', full ? 'text-muted-foreground' : 'text-primary')}>
+                  <View className='flex flex-col items-end' data-node-id="0d2400ca-9ba7-11f1-b43e-bea971cc7bac">
+                    <Text className={cn('text-2xl font-bold', full ? 'text-muted-foreground' : 'text-primary')} data-node-id="0d23f4d6-9ba7-11f1-b43e-bea971cc7bac">
                       {remaining}
                     </Text>
-                    <Text className='text-[10px] text-muted-foreground'>/ {c.max_capacity} 剩余</Text>
+                    <Text className='text-[10px] text-muted-foreground' data-node-id="0d23f7c4-9ba7-11f1-b43e-bea971cc7bac">/ {c.max_capacity} 剩余</Text>
                   </View>
                 </View>
-                <View className='flex flex-row gap-2'>
+                <View className='flex flex-row gap-2' data-node-id="0d2401ba-9ba7-11f1-b43e-bea971cc7bac">
                   {mine === 'booked' ? (
                     <Button
                       variant='danger'
@@ -184,11 +184,11 @@ export default function Schedule() {
                       className='flex-1'
                       loading={busy === c.id}
                       onClick={() => cancel(c)}
-                    >
+                     data-node-id="0d240674-9ba7-11f1-b43e-bea971cc7bac">
                       取消预约
                     </Button>
                   ) : full ? (
-                    <Button variant='secondary' size='md' className='flex-1' disabled>
+                    <Button variant='secondary' size='md' className='flex-1' disabled data-node-id="0d240af2-9ba7-11f1-b43e-bea971cc7bac">
                       已满员
                     </Button>
                   ) : (
@@ -198,7 +198,7 @@ export default function Schedule() {
                       className='flex-1'
                       loading={busy === c.id}
                       onClick={() => book(c)}
-                    >
+                     data-node-id="0d23f5e4-9ba7-11f1-b43e-bea971cc7bac">
                       一键预约
                     </Button>
                   )}

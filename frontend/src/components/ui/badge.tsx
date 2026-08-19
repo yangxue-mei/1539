@@ -11,7 +11,7 @@ export function Badge({ children, className, ...props }: BadgeProps) {
     <Text
       className={cn('inline-flex rounded-full bg-muted px-3 py-1 text-xs font-medium text-muted-foreground', className)}
       {...props}
-    >
+     data-node-id="0cf6aa26-9ba7-11f1-b43e-bea971cc7bac">
       {children}
     </Text>
   )

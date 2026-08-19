@@ -19,12 +19,12 @@ export function EmptyState({
     <View
       className={cn('flex flex-col items-center rounded-xl bg-muted px-5 py-8 text-center', className)}
       {...props}
-    >
-      <View className='text-base font-semibold text-foreground'>{title}</View>
+     data-node-id="0cf746ca-9ba7-11f1-b43e-bea971cc7bac">
+      <View className='text-base font-semibold text-foreground' data-node-id="0cf749b8-9ba7-11f1-b43e-bea971cc7bac">{title}</View>
       {description ? (
-        <View className='mt-2 text-sm text-muted-foreground'>{description}</View>
+        <View className='mt-2 text-sm text-muted-foreground' data-node-id="0cf747f6-9ba7-11f1-b43e-bea971cc7bac">{description}</View>
       ) : null}
-      {action ? <View className='mt-5'>{action}</View> : null}
+      {action ? <View className='mt-5' data-node-id="0cf748dc-9ba7-11f1-b43e-bea971cc7bac">{action}</View> : null}
     </View>
   )
 }
